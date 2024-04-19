@@ -13,6 +13,8 @@
 		AE0878352BD296F300BEA3F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0878332BD296F300BEA3F2 /* Main.storyboard */; };
 		AE0878372BD296F400BEA3F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0878362BD296F400BEA3F2 /* Assets.xcassets */; };
 		AE08783A2BD296F400BEA3F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0878382BD296F400BEA3F2 /* LaunchScreen.storyboard */; };
+		AE0878422BD2982A00BEA3F2 /* Lesson 5課題用画像 in Resources */ = {isa = PBXBuildFile; fileRef = AE0878412BD2982A00BEA3F2 /* Lesson 5課題用画像 */; };
+		AE0878442BD2990700BEA3F2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0878432BD2990700BEA3F2 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AE0878362BD296F400BEA3F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE0878392BD296F400BEA3F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE08783B2BD296F400BEA3F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE0878412BD2982A00BEA3F2 /* Lesson 5課題用画像 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Lesson 5課題用画像"; sourceTree = "<group>"; };
+		AE0878432BD2990700BEA3F2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				AE08782D2BD296F300BEA3F2 /* AppDelegate.swift */,
 				AE08782F2BD296F300BEA3F2 /* SceneDelegate.swift */,
 				AE0878312BD296F300BEA3F2 /* ViewController.swift */,
+				AE0878432BD2990700BEA3F2 /* DetailViewController.swift */,
 				AE0878332BD296F300BEA3F2 /* Main.storyboard */,
 				AE0878362BD296F400BEA3F2 /* Assets.xcassets */,
 				AE0878382BD296F400BEA3F2 /* LaunchScreen.storyboard */,
 				AE08783B2BD296F400BEA3F2 /* Info.plist */,
+				AE0878412BD2982A00BEA3F2 /* Lesson 5課題用画像 */,
 			);
 			path = SlideshowApp_4;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				AE08783A2BD296F400BEA3F2 /* LaunchScreen.storyboard in Resources */,
 				AE0878372BD296F400BEA3F2 /* Assets.xcassets in Resources */,
+				AE0878422BD2982A00BEA3F2 /* Lesson 5課題用画像 in Resources */,
 				AE0878352BD296F300BEA3F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE0878442BD2990700BEA3F2 /* DetailViewController.swift in Sources */,
 				AE0878322BD296F300BEA3F2 /* ViewController.swift in Sources */,
 				AE08782E2BD296F300BEA3F2 /* AppDelegate.swift in Sources */,
 				AE0878302BD296F300BEA3F2 /* SceneDelegate.swift in Sources */,
